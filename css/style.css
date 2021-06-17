@@ -1,0 +1,128 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: sans-serif, tahoma;
+	font-size: 14%;
+	background-color: #bdc3c7;
+}
+h1{
+	text-align:center;
+	font-size:50px;
+	color:#fff;
+	background-color: #16a085;
+	padding: 15px 0;
+	margin-bottom: 15px;
+	border-bottom: 2px solid #2c3e50;
+	letter-spacing: 3px;
+	word-spacing: 5px;
+}
+#menu{
+	text-align: center;
+	font-size:18px;
+	margin-bottom: 15px;
+}
+#menu a{
+	text-decoration: none;
+	padding: 15px 10px ;
+	background-color: #1abc9c;
+	color: #2c3e50;
+}
+.headline{
+	font-size:28px;
+	padding: 10px 10px;
+}
+.headline a{
+	color: #2980b9;
+	text-decoration: none;
+}
+/*------content-----*/
+.content{
+	text-align: justify;
+	font-size: 18px;
+	border: 1px solid gray;
+	padding: 10px;
+	margin: 0px 10px 10px;
+	height: auto;
+	overflow: auto;
+}
+.content img{
+	margin-right: 10px;
+	border: 3px solid white;
+}
+.content a{
+	background-color: #1abc9c;
+	overflow: auto;
+	color:#34495e;
+	text-decoration: none;
+	/*text-align: right;*/
+	padding: 5px 10px;
+	float: right;
+	clear: left;
+}
+/*---inner content-----*/
+.inner-content{
+	border: none;
+	padding: 0;
+}
+.course-facility{
+	font-size: 25px;
+	padding: 0 10px;
+	color:  #16a085;
+	text-transform: capitalize;
+	margin-bottom: 5px;
+}
+.course-facility-list{
+	font-size: 17px;
+	padding: 0 0 0 60px;
+	/*margin: 0 15px;*/
+}
+.course-facility-list li{
+	margin-bottom: 5px;
+}
+#course-cariculam{
+	font-size: 25px;
+	text-decoration-style: wavy;
+	text-decoration-line: underline;
+	color: #3498db;
+	text-align: center;
+}
+.course-day{
+	font-size: 25px;
+	padding: 0 10px;
+	color:  #16a085;
+	text-transform: capitalize;
+	margin-bottom: 5px;
+}
+.course-day-list{
+		font-size: 17px;
+	padding: 0 0 0 60px;
+}
+.course-day-list li{
+	margin-bottom: 5px;
+}
+#contact,#about{
+	font-size: 25px;
+	padding: 50px 0px 40px;
+	color:  #16a085;
+	margin-bottom: 5px;
+	text-align: center;
+	text-decoration-style: wavy;
+	text-decoration-line: underline;
+}
+#contact-content{
+	font-size: 20px;
+	text-align: center;
+	line-height: 35px;
+}
+#contact-content a{
+	text-decoration: none;
+}
+#about-content{
+	font-size: 30px;
+	text-align: justify;
+	line-height: 45px;
+	font-weight: lighter;
+	padding: 0 10px;
+}
